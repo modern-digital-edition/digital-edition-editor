@@ -2,6 +2,14 @@
 
 ## Development ()
 
+## 1.2.3 (28.02.2025)
+
+* **Bugfix**: Fix tiptap editor
+
+## 1.2.2 (28.02.2025)
+
+* **New**: Crossplatform arm64/amd64 build
+
 ## 1.2.1 (26.05.2023)
 
 * **Bugfix**: Fixed a security issue in Tornado
