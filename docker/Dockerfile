@@ -14,10 +14,10 @@ RUN apt-get update && \
     apt-get install -y tini git
 
 # Copy the application and configuration file
-COPY digi_edit-1.2.1-py3-none-any.whl /tmp/
+COPY digi_edit-1.2.2-py3-none-any.whl /tmp/
 
 # Install the application
-RUN python -m pip install /tmp/digi_edit-1.2.1-py3-none-any.whl[postgresql]
+RUN python -m pip install /tmp/digi_edit-1.2.2-py3-none-any.whl[postgresql]
 COPY start_digi_edit.sh /usr/bin/
 RUN chmod a+x /usr/bin/start_digi_edit.sh && \
     mkdir /var/lib/digi-edit && \
